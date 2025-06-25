@@ -29,37 +29,5 @@
       "subtitle": "Descubre los productos más comercializados de nuestros países participantes",
       "viewAll": "Ver Todos los Productos"
     }
-  },
-  "exports": {
-    "title": "Directorio Global de Exportaciones",
-    "subtitle": "Navega y busca productos exportables de países participantes en todo el mundo",
-    "search": {
-      "placeholder": "Buscar productos, países o categorías..."
-    },
-    "filter": {
-      "allCategories": "Todas las Categorías",
-      "advanced": "Filtros",
-      "title": "Filtros Avanzados",
-      "categories": "Categorías",
-      "taxRate": "Rango de Tasa de Impuesto",
-      "apply": "Aplicar Filtros",
-      "unitConverter": "Conversor de Unidades",
-      "quickStats": "Estadísticas Rápidas"
-    },
-    "stats": {
-      "totalProducts": "Total de Productos",
-      "countries": "Países"
-    },
-    "card": {
-      "quantity": "Cantidad",
-      "taxRate": "Tasa de Impuesto",
-      "updated": "Actualizado",
-      "viewExporters": "Ver Exportadores",
-      "authorizedExporters": "Exportadores Autorizados"
-    },
-    "noResults": {
-      "title": "No se encontraron productos",
-      "subtitle": "Intenta ajustar tus criterios de búsqueda o filtros"
-    }
   }
 }
