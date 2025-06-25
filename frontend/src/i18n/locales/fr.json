@@ -1,0 +1,33 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "exports": "Répertoire d'Exportation",
+    "dashboard": "Tableau de Bord",
+    "admin": "Panneau d'Administration",
+    "login": "Connexion",
+    "register": "S'inscrire",
+    "logout": "Déconnexion"
+  },
+  "home": {
+    "hero": {
+      "title": "Explorez ce que le Monde Exporte",
+      "subtitle": "Découvrez les produits exportables des pays participants dans le monde entier. Recherchez, comparez et connectez-vous avec des exportateurs autorisés."
+    },
+    "search": {
+      "placeholder": "Rechercher des produits, pays ou catégories...",
+      "hint": "Essayez de rechercher 'café', 'Brésil' ou 'agriculture'"
+    },
+    "cta": {
+      "viewExports": "Voir les Exportations Mondiales",
+      "title": "Prêt à Commencer le Commerce?",
+      "subtitle": "Rejoignez les fonctionnaires gouvernementaux et les exportateurs du monde entier sur notre plateforme de commerce mondial.",
+      "getStarted": "Commencer",
+      "exploreNow": "Explorer Maintenant"
+    },
+    "featured": {
+      "title": "Produits d'Exportation en Vedette",
+      "subtitle": "Découvrez les produits les plus échangés de nos pays participants",
+      "viewAll": "Voir Tous les Produits"
+    }
+  }
+}

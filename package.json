@@ -1,0 +1,20 @@
+{
+  "name": "global-export-visibility-platform",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\"",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && python -m uvicorn main:app --reload --port 8000",
+    "build": "cd frontend && npm run build",
+    "install:frontend": "cd frontend && npm install",
+    "install:backend": "cd backend && pip install -r requirements.txt",
+    "setup": "npm run install:frontend && npm run install:backend",
+    "setup:db": "cd backend && prisma generate && prisma db push",
+    "seed": "cd backend && python seed_data.py"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "nav": {
+    "home": "Home",
+    "exports": "Export Directory",
+    "dashboard": "Dashboard",
+    "admin": "Admin Panel",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout"
+  },
+  "home": {
+    "hero": {
+      "title": "Explore What the World Exports",
+      "subtitle": "Discover exportable products from participating countries worldwide. Search, compare, and connect with authorized exporters."
+    },
+    "search": {
+      "placeholder": "Search products, countries, or categories...",
+      "hint": "Try searching for 'coffee', 'Brazil', or 'agriculture'"
+    },
+    "cta": {
+      "viewExports": "View Global Exports",
+      "title": "Ready to Start Trading?",
+      "subtitle": "Join government officials and exporters from around the world in our global trade platform.",
+      "getStarted": "Get Started",
+      "exploreNow": "Explore Now"
+    },
+    "featured": {
+      "title": "Featured Export Products",
+      "subtitle": "Discover the most traded products from our participating countries",
+      "viewAll": "View All Products"
+    }
+  },
+  "exports": {
+    "title": "Global Export Directory",
+    "subtitle": "Browse and search exportable products from participating countries worldwide",
+    "search": {
+      "placeholder": "Search products, countries, or categories..."
+    },
+    "filter": {
+      "allCategories": "All Categories",
+      "advanced": "Filters",
+      "title": "Advanced Filters",
+      "categories": "Categories",
+      "taxRate": "Tax Rate Range",
+      "apply": "Apply Filters",
+      "unitConverter": "Unit Converter",
+      "quickStats": "Quick Stats"
+    },
+    "stats": {
+      "totalProducts": "Total Products",
+      "countries": "Countries"
+    },
+    "card": {
+      "quantity": "Quantity",
+      "taxRate": "Tax Rate",
+      "updated": "Updated",
+      "viewExporters": "View Exporters",
+      "authorizedExporters": "Authorized Exporters"
+    },
+    "noResults": {
+      "title": "No products found",
+      "subtitle": "Try adjusting your search criteria or filters"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Welcome Back",
+      "subtitle": "Sign in to your government account",
+      "submit": "Sign In",
+      "loading": "Signing in...",
+      "success": "Login successful!",
+      "error": "Login failed. Please try again.",
+      "noAccount": "Don't have an account?",
+      "signUp": "Sign up"
+    },
+    "register": {
+      "title": "Create Account",
+      "subtitle": "Register for government access",
+      "submit": "Create Account",
+      "loading": "Creating account...",
+      "success": "Account created successfully! Please wait for admin approval.",
+      "error": "Registration failed. Please try again.",
+      "hasAccount": "Already have an account?",
+      "signIn": "Sign in",
+      "note": "Note",
+      "approval": "Your account will require admin approval before you can access the dashboard."
+    },
+    "email": "Email Address",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "role": "Role",
+    "country": "Country",
+    "emailPlaceholder": "Enter your email",
+    "passwordPlaceholder": "Enter your password",
+    "confirmPasswordPlaceholder": "Confirm your password",
+    "selectRole": "Select your role",
+    "selectCountry": "Select your country",
+    "roles": {
+      "editor": "Editor",
+      "countryAdmin": "Country Admin"
+    },
+    "validation": {
+      "emailRequired": "Email is required",
+      "emailInvalid": "Please enter a valid email",
+      "passwordRequired": "Password is required",
+      "passwordMinLength": "Password must be at least 6 characters",
+      "confirmPasswordRequired": "Please confirm your password",
+      "passwordsMatch": "Passwords must match",
+      "roleRequired": "Please select a role",
+      "countryRequired": "Please select a country"
+    }
+  },
+  "dashboard": {
+    "welcome": "Welcome",
+    "subtitle": "Manage your country's export data and authorized exporters",
+    "lastLogin": "Last Login",
+    "stats": {
+      "totalProducts": "Total Products",
+      "authorizedExporters": "Authorized Exporters",
+      "activeExports": "Active Exports"
+    },
+    "tabs": {
+      "products": "Products",
+      "exporters": "Exporters"
+    },
+    "products": {
+      "title": "Export Products",
+      "add": "Add Product",
+      "edit": "Edit Product",
+      "name": "Product Name",
+      "quantity": "Quantity",
+      "unit": "Unit",
+      "taxRate": "Tax Rate",
+      "category": "Category",
+      "period": "Time Period",
+      "tags": "Tags",
+      "namePlaceholder": "Enter product name",
+      "selectUnit": "Select unit",
+      "selectCategory": "Select category",
+      "timePeriod": "Time Period",
+      "tagsPlaceholder": "organic, premium, export-grade",
+      "tagsHint": "Separate tags with commas",
+      "createSuccess": "Product created successfully!",
+      "updateSuccess": "Product updated successfully!",
+      "error": "An error occurred. Please try again."
+    },
+    "exporters": {
+      "title": "Authorized Exporters",
+      "add": "Add Exporter",
+      "edit": "Edit Exporter",
+      "name": "Company Name",
+      "licenseId": "License ID",
+      "license": "License",
+      "contact": "Contact Information",
+      "website": "Website",
+      "namePlaceholder": "Enter company name",
+      "licenseIdPlaceholder": "Enter license ID",
+      "contactPlaceholder": "Phone, email, or address",
+      "websitePlaceholder": "https://company.com",
+      "createSuccess": "Exporter created successfully!",
+      "updateSuccess": "Exporter updated successfully!",
+      "error": "An error occurred. Please try again."
+    },
+    "validation": {
+      "required": "This field is required",
+      "positive": "Value must be positive",
+      "maxPercent": "Value cannot exceed 100%"
+    },
+    "confirmDelete": "Are you sure you want to delete this item?"
+  },
+  "admin": {
+    "title": "Super Admin Panel",
+    "subtitle": "Manage users, countries, and system activity",
+    "stats": {
+      "totalUsers": "Total Users",
+      "countries": "Countries",
+      "activeUsers": "Active Users"
+    },
+    "tabs": {
+      "users": "Users",
+      "countries": "Countries",
+      "logs": "Activity Logs"
+    },
+    "users": {
+      "title": "User Management",
+      "active": "Active",
+      "inactive": "Inactive",
+      "activate": "Activate",
+      "view": "View",
+      "noCountry": "No country assigned"
+    },
+    "countries": {
+      "title": "Country Management",
+      "code": "Code",
+      "region": "Region"
+    },
+    "logs": {
+      "title": "Activity Logs"
+    }
+  },
+  "converter": {
+    "title": "Unit Converter"
+  },
+  "common": {
+    "cancel": "Cancel",
+    "save": "Save",
+    "saving": "Saving...",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success"
+  }
+}
