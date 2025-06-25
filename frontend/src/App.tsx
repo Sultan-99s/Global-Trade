@@ -12,14 +12,21 @@ import SuperAdminPanel from './pages/SuperAdminPanel';
 import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
 import ProtectedRoute from './components/auth/ProtectedRoute';
+import { useThemeStore } from './stores/themeStore';
 
 const queryClient = new QueryClient();
 
 function App() {
+  const { isDarkMode } = useThemeStore();
+
   return (
     <QueryClientProvider client={queryClient}>
       <Router>
-        <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
+        <div className={`min-h-screen transition-colors duration-300 ${
+          isDarkMode 
+            ? 'bg-gradient-to-br from-gray-900 to-slate-900 text-white' 
+            : 'bg-gradient-to-br from-slate-50 to-blue-50 text-gray-900'
+        }`}>
           <Navbar />
           <main>
             <Routes>
@@ -45,7 +52,17 @@ function App() {
               />
             </Routes>
           </main>
-          <Toaster position="top-right" />
+          <Toaster 
+            position="top-right"
+            toastOptions={{
+              className: isDarkMode ? 'dark-toast' : '',
+              style: {
+                background: isDarkMode ? '#374151' : '#ffffff',
+                color: isDarkMode ? '#ffffff' : '#000000',
+                border: isDarkMode ? '1px solid #4B5563' : '1px solid #E5E7EB'
+              }
+            }}
+          />
         </div>
       </Router>
     </QueryClientProvider>
